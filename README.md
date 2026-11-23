@@ -23,28 +23,12 @@ This repository presents a real-time, hybrid 3D-aware framework integrating:
 3. **Monocular Depth Estimation**: **MiDaS Small** to provide pixel-wise relative depth maps calibrated to physical metrics via reference scale calibration.
 4. **Depth-Aware Occlusion Detection**: Evaluation of 3D spatial separation combining 2D bounding-box centroid overlap and relative depth ordering to trigger multi-tier surgical alerts.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                    PROPOSED HYBRID PIPELINE                                        |
-|                                                                                                    |
-|  Surgical Video Frame                                                                              |
-|         │                                                                                          |
-|         ├───► YOLOv10 Detection ──────► Instrument & ROI BBoxes                                    |
-|         │                                        │                                                 |
-|         │                                        ▼                                                 |
-|         │                                Particle Filtering ──────► Robust 2D State Estimation     |
-|         │                                                                    │                     |
-|         ├───► MiDaS Small Monocular Depth ──► Relative Depth Map             │                     |
-|         │     (Interleaved every 4th frame)              │                   │                     |
-|         │                                                ▼                   ▼                     |
-|         └───────────────────────────────────► Dimension-Normalized 3D Spatial Occlusion Evaluation |
-|                                                              │                                     |
-|                                                              ▼                                     |
-|                                              Real-Time Augmented Visualization                     |
-|                                         (Safe [Green] | Partial [Yellow] | Alert [Red])            |
-+----------------------------------------------------------------------------------------------------+
-```
-
+<p align="center">
+  <img src="docs/images/system_workflow.jpg" alt="Proposed System Workflow" width="100%">
+</p>
+<p align="center">
+  <em>Figure 1: Workflow of the proposed system: (a) Surgical video frames for pre-processing, (b) Integration of particle filtering for surgical tool and ROI detection, (c) Monocular depth estimation using MiDaS, and (d) Real-time augmented surgical visualization.</em>
+</p>
 ---
 
 ## 📹 Supplementary Materials Included in this Repository
