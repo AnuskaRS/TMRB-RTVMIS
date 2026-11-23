@@ -161,13 +161,16 @@ python -m src.depth_calibration_experiment
 If you use this work, the code, or the supplementary materials in your research, please cite:
 
 ```bibtex
-@article{sarkar2026augmenting,
-  author    = {Sarkar, Anuska and Acharya, Partha and Nandury, Vishnu and Basu, Kaustav and Mandal, Subhamoy},
-  title     = {Augmenting Real-Time Visualization in Minimally Invasive Surgery with Particle Filtering and Depth-Aware Occlusion Handling},
-  journal   = {IEEE Transactions on Medical Robotics and Bionics},
-  year      = {2026},
-  url       = {https://ieeexplore.ieee.org/abstract/document/11740766}
-}
+@ARTICLE{11740766,
+  author={Sarkar, Anuska and Acharya, Partha and Nandury, Vishnu and Basu, Kaustav and Mandal, Subhamoy},
+  journal={IEEE Transactions on Medical Robotics and Bionics}, 
+  title={Augmenting Real-time Visualization in Minimally Invasive Surgery with Particle Filtering and Depth-Aware Occlusion Handling}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Visualization;Modeling;Elementary particles;Depth measurement;Instruments;Signal detection;Tracking;Timing;Filtering;Detectors;Instrument Tracking;Minimally Invasive Surgery;Monocular Depth Estimation;Particle Filtering;Occlusion Handling},
+  doi={10.1109/TMRB.2026.3744449}}
 ```
 
 ---
@@ -175,4 +178,4 @@ If you use this work, the code, or the supplementary materials in your research,
 ## 📧 Contact
 For questions regarding the methodology or dataset access:
 * **Subhamoy Mandal** (Corresponding Author): `s.mandal@ieee.org`
-* **Anuska Sarkar**: School of Medical Science and Technology, Indian Institute of Technology Kharagpur
+* **Anuska Sarkar**: School of Medical Science and Technology, Indian Institute of Technology Kharagpur: `asarkar_smst.24@kgpian.iitkgp.ac.in`
