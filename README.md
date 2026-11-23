@@ -24,7 +24,7 @@ This repository presents a real-time, hybrid 3D-aware framework integrating:
 4. **Depth-Aware Occlusion Detection**: Evaluation of 3D spatial separation combining 2D bounding-box centroid overlap and relative depth ordering to trigger multi-tier surgical alerts.
 
 <p align="center">
-  <img src="docs/images/system_workflow.jpg" alt="Proposed System Workflow" width="100%">
+  <img src="system_workflow.jpg" alt="Proposed System Workflow" width="100%">
 </p>
 <p align="center">
   <em>Figure 1: Workflow of the proposed system: (a) Surgical video frames for pre-processing, (b) Integration of particle filtering for surgical tool and ROI detection, (c) Monocular depth estimation using MiDaS, and (d) Real-time augmented surgical visualization.</em>
