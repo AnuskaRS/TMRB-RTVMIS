@@ -31,6 +31,16 @@ This repository presents a real-time, hybrid 3D-aware framework integrating:
 </p>
 ---
 
+## 📹 Real-Time Qualitative Tracking & Occlusion Alerts
+
+<p align="center">
+  <img src="tracking_and_occlusion_alerts.jpg" alt="Real-Time Surgical Tool Tracking and Occlusion Alerts" width="100%">
+</p>
+<p align="center">
+  <em>Figure 2: Representative robot-assisted surgical frames demonstrating surgical tool tracking and real-time occlusion alerts across progression time points ($t$, $t + 3\text{ s}$, $t + 5\text{ s}$, $t + 9\text{ s}$).</em>
+</p>
+
+
 ## 📹 Supplementary Materials Included in this Repository
 
 * 📄 **`Supplementary materials.pdf`**: Detailed survey questionnaires, extended multi-center clinical feedback, and additional qualitative depth maps across laparoscopic interventions.
